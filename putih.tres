@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://ch17elf5gcu3c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pb2l7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xoqc0"]
+bg_color = Color(0.968627, 0.968627, 0.968627, 0)
+
+[resource]
+CheckButton/styles/focus = SubResource("StyleBoxEmpty_pb2l7")
+CheckButton/styles/normal = SubResource("StyleBoxFlat_xoqc0")
